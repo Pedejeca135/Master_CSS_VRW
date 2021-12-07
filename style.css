@@ -1,0 +1,32 @@
+/*SELECTORES*/
+
+/*selector universal*/
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selectores de etiquetas*/
+
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration:wavy;
+}
+
+/*selector compuesto:
+selecciona los enlaces dentro del footer*/
+footer a{
+    color : blue;
+}
+
+/*selector de ID¨*/
+
+/*selector de clase*/
+
