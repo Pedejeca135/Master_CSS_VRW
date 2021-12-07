@@ -122,3 +122,19 @@ del elemento en cuestion*/
     font-size: 18px;
     text-decoration: underline;
 }
+
+/*Prioridad*/
+
+#saludo h1{
+    background:brown!important;
+}
+
+#saludo h1{
+
+    background:green;
+}
+
+h1{
+    background: purple !important;
+}
+
