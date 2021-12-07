@@ -43,6 +43,10 @@ footer a{
     border: 2px dashed white;
 }
 
+#red{
+    color:tomato;
+}
+
 /*selector de clase*/
 .parrafo{
     font-style: italic;
@@ -64,3 +68,57 @@ footer a{
 
 /*selector de atributo*/
 
+#usuario form{
+    border : 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#usuario form *{
+    display:block;
+}
+
+/*selector de atributo*/
+input[type="text"]{
+    background:yellow;
+    margin-bottom: 15px;
+    padding:15px;
+    width:200px;
+}
+
+input[id="red "]{
+    background:red;
+    margin-bottom: 15px;
+    padding:15px;
+    width:200px;
+}
+
+input[type="submit"]{
+    background:green;
+    color: white;
+    font-size: 27px;
+    padding:15px;
+    text-transform: uppercase;
+    border : 2px solid black;
+    cursor:pointer;
+}
+
+/*selectores hijo: selecciona todos los hijos directos 
+del elemento en cuestion*/
+#menuInner  a{
+    color: red ;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#menuInner > li > a {
+    color: blueviolet ;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#menu > li >a{
+    color: red ;
+    font-size: 18px;
+    text-decoration: underline;
+}
