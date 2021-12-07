@@ -14,6 +14,11 @@ h1{
     padding: 10px;
 }
 
+h2{
+    padding:0;
+    margin: 0;
+}
+
 a{
     font-size: 18px;
     color: green;
@@ -26,7 +31,36 @@ footer a{
     color : blue;
 }
 
-/*selector de ID¨*/
+/*selector de ID*/
+#descripcion, #titulo{
+    border : 5px solid black;
+    padding: 15px;
+
+}
+
+#titulo{
+    background: blue;
+    border: 2px dashed white;
+}
 
 /*selector de clase*/
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.parrafo1, .parrafo2{
+    padding: 15px;
+}
+
+.parrafo1{
+    background-color: green;
+}
+
+.parrafo2{
+    background-color: red;
+}
+
+/*selector de atributo*/
 
