@@ -46,5 +46,5 @@ input[type="text"]:hover{
 }
 
 input[type="text"]:focus{
-    border: 4px dashed red;
+    border: 4px dashed red ddf;
 }

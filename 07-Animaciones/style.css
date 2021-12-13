@@ -1,0 +1,23 @@
+#boton{
+    display:block;
+    padding: 20px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid green;
+    transition : border 500ms , background-color 3s, border-radius 1s;
+
+    /* transition : border 500ms ;
+    transition: background-color 3s;
+    transition: border-radius 1s; */
+}
+
+#boton:hover{
+    border-radius: 15px;
+    background: red;
+    border :5px solid orange;
+}
