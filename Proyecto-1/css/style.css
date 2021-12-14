@@ -24,12 +24,76 @@ body{
     /* background-color: red; */
 }
 
+/* FORMULARIOS */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    padding : 1px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    color:gray;
+    transition : all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus{
+    border: 1px solid #70b231;
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    padding : 1px;
+    padding-top: 2px;
+    color:black;
+    transition : all 300ms;
+
+}
+
+/**/
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button{
+    display:block;
+    border-radius: 2px;
+    border: 1px solid green;
+    width:60px;
+    padding:3px;
+    color:white;
+    background-color: #70b231;
+    cursor:pointer;
+    box-shadow: 0px 0px 2px #aaa inset;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover{
+    box-shadow: -1px 1px 2px gray ;
+
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active{
+    box-shadow: 0px 0px 3px gray inset;
+    text-shadow: 0px 0px 1px #ccc;
+
+
+}
+
+
+
 /*CABECERA*/
 header{
     min-width: 1024px;
     width:100%;
     height:250px;
-
 }
 
 #header a{
@@ -62,7 +126,6 @@ header{
 }
 
 #header h1:hover{
-    
     text-shadow:0px 2px 1px #333333, 
                 0px,0px 4px #70b231;
 }
@@ -107,6 +170,7 @@ header h1 a{
 
 #nav > ul > li > a:first-child{
     border-left: 2px solid grey;
+    
 }
 
 #nav ul{
@@ -132,11 +196,124 @@ header h1 a{
 }
 
 #nav > ul > li a:first-child{
-    border-left: 1px solid gray;
+    border-left: 1px solid blue;
 
 }
 
 #nav > ul > li:hover{
     background-color:#70b231;
     box-shadow: 0px 0px 4px green inset;
+}
+
+
+/* menu desplegable */
+#nav > ul > li > ul{
+    display: none;
+    position : absolute;
+    color:white;
+    text-align:left;
+    width : 160px;
+    box-shadow: 0px 2px 2px grey;
+    z-index: 1;
+
+}
+
+#nav > ul > li:hover > ul{
+    display:block;
+}
+
+#nav > ul > li:hover > ul > li {
+    display:block;
+    background-color: #F2F1F0;
+    border-bottom : 1px solid #D6D6D6;
+    padding: 8px;
+    line-height: 25px;
+    font-size:13px;
+}
+
+#nav > ul > li:hover > ul > li  a{
+    display:block;
+    background-color: #F2F1F0;
+    border-bottom : 1px solid #D6D6D6;
+    color:black;
+    padding: 8px;
+    line-height: 25px;
+    font-size:13px;
+}
+
+#nav > ul > li:hover > ul  > li:hover {
+    box-shadow: 0px 0px 2px #ccc inset;
+    /* color:blue; */
+    background: rgb(138 237 237);
+
+
+}
+
+
+
+/* CONTENIDO */
+#content{
+    width:1250px;
+    min-height: 1100px;
+    margin:0px auto;
+
+}
+
+/* BARRA LATERAL */
+#aside{
+    width: 200px;
+    float:left;
+    margin:30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow:0px 2px 2px #ccc;
+    font-family: sans-serif, Arial, Helvetica;
+
+}
+
+#aside .widget{
+    display:block;
+    width:180px;
+    margin:5px auto;
+    padding: 8px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #333333;
+}
+
+#aside .widget:last-child{
+    margin-bottom: 20px;
+}
+
+#aside h3{
+    display:block;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+/* FORMULARIOS BARRA LATERAL */
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="email"],
+#aside div input[type="password"],
+#aside div a
+{
+    display: block;
+    width: 95%;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+#aside div input[type="button"],
+#aside div input[type="button"],
+#aside div button{
+    margin-top:5px;
+    margin-bottom:10px;
 }
