@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size:30px;
+}
+
+div{
+    width: 120px;
+    height: 120px;
+    display:block;
+    background:yellow;
+}
+
+.caja1{
+  background-color: orange;  
+  top:20px;
+  left:30px;
+}
+
+.caja2{
+    background-color: green;  
+    position:relative;
+    top:20px; 
+    bottom:20px;  /*top es mas importante por lo que bottom ya no tiene efecto sobre la caja */
+    left:20px;
+    z-index:-1;
+}
+
+.caja3{
+    background-color: lightblue; 
+    position: relative; 
+}
+
+.caja4{
+    background-color: yellow;  
+}

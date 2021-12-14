@@ -317,3 +317,8 @@ header h1 a{
     margin-top:5px;
     margin-bottom:10px;
 }
+
+#aside input,
+#aside label{
+    margin:0px auto;
+}
