@@ -12,10 +12,8 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
-  
   /* Sections
      ========================================================================== */
-  
   /**
    * Remove the margin in all browsers.
    */
@@ -348,3 +346,104 @@
     display: none;
   }
   /*Normalize end*/
+
+
+
+  /* CONFIGURACION */
+  *, *::after, *::before{
+      box-sizing: border-box;
+  }
+
+  /* Variables */
+  :root{
+      --fuente: 'Opens Sans', sans-serif;
+      --fondo:#f2f2f2;
+      --ancho-contenedor:1200px;
+  }
+
+
+/* Estilos generales  */
+body{
+    background:var(--fondo);
+    font-family:var(--fuente);
+    font-size: 18px;
+}
+
+p{
+    line-height: 27px;
+
+}
+
+
+img{
+    vertical-align:top;
+    width:100%;
+}
+
+
+/* CONTENEDORES */
+.contenedor{
+    max-width:90%;
+    width:var(--ancho-contenedor);
+    margin:20px auto;
+    overflow: hidden;
+}
+
+.contenedor-ancho{
+    width:100%;
+    padding:0 40px;
+    margin:20px auto;
+
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+/* Tamaño grande - computadoras y TV */
+.col-1{grid-template-columns: repeat(1, 1fr);}
+.col-2{grid-template-columns: repeat(2, 1fr);}
+.col-3{grid-template-columns: repeat(3, 1fr);}
+.col-4{grid-template-columns: repeat(4, 1fr);}
+.col-5{grid-template-columns: repeat(5, 1fr);}
+.col-6{grid-template-columns: repeat(6, 1fr);}
+.col-7{grid-template-columns: repeat(7, 1fr);}
+.col-8{grid-template-columns: repeat(8, 1fr);}
+.col-9{grid-template-columns: repeat(9, 1fr);}
+.col-10{grid-template-columns: repeat(10, 1fr);}
+.col-11{grid-template-columns: repeat(11, 1fr);}
+.col-12{grid-template-columns: repeat(12, 1fr);}
+
+
+/* COMPONENTES */
+.card{
+    padding:40px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 30px rgba(221,221,211,0.3);
+
+}
+
+/* FUENTES */
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+
+.display-1{
+    font-weight: 700;
+    font-size:64px;
+}
+
+.display-2{
+    font-weight: 700;
+    font-size:54px;
+}
+
+.display-3{
+    font-weight: 700;
+    font-size:44px;
+}
+
