@@ -43,6 +43,35 @@
     object-fit: cover;
 }
 
+#img44{
+    height:100%;
+    width:100%;
+    border:2px solid red;
+    object-fit: cover;
+    object-position: right;
+}
+
+#img444{
+    height:100%;
+    width:100%;
+    border:2px solid red;
+    object-fit: cover;
+    object-position: left;
+    object-position: -4rem;
+}
+
+
+#img4444{
+    height:100%;
+    width:100%;
+    border:2px solid red;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+
+
 #img5{
     height:100%;
     width:100%;
