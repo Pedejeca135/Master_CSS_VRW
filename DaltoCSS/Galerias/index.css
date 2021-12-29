@@ -1,0 +1,45 @@
+*{
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+    font-size:20px;
+
+}
+
+.container{
+    display:flex;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+p{
+    display:inline;
+}
+
+.caja{
+    height:500px;
+    /* display:flex; */
+}
+
+
+.container div {
+    flex:1;
+    display:flex;
+    margin:4px;
+    border:1px solid red;
+    min-width: 180px;
+    
+}
+
+/* 
+Contain:
+se contiene toda la imagen al contenedor en el mismo aspect ratio que la original
+
+Cover: 
+Se ajusta el contenido a el contenedor(como un fill)
+
+None
+pone la imagen al tamaño original
+
+Scale down
+compara none y contain y despliega el que haga que la imagen sea mas pequeña
+*/
