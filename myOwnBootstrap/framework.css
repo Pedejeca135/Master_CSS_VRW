@@ -625,7 +625,7 @@ xxl: 1400px
   (max-width: 575.98px) and 
   (orientation:portrait) {
     body{
-        background: #FF2222;
+        background: #FF3333;
     }
   }
 
@@ -633,7 +633,7 @@ xxl: 1400px
   (max-width: 575.98px) and
   (orientation:landscape) {
     body{
-        background: #FF4444;;
+        background: #FF6666;;
     }
   }
 
