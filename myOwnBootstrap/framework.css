@@ -1,5 +1,8 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+
+
+
 /* Document
    ========================================================================== */
 
@@ -518,7 +521,6 @@ img{
 }
 
 
-
 /* FUENTES */
 h1, h2, h3, h4, h5, h6{
     margin-top: 0;
@@ -615,23 +617,23 @@ xxl: 1400px
 @media only screen and 
 (max-width: 575.98px) {
     body{
-        background: #f44544;
+         background: #FF0000;/*#0d6efd;*/
     }
   }
 
   @media only screen and 
-  (max-width: 575.98px)
-  and (orientation:portrait) {
+  (max-width: 575.98px) and 
+  (orientation:portrait) {
     body{
-        background: #00833d;
+        background: #FF2222;
     }
   }
 
   @media only screen and 
-  (max-width: 575.98px)
-  and (orientation:landscape) {
+  (max-width: 575.98px) and
+  (orientation:landscape) {
     body{
-        background: #00833d;
+        background: #FF4444;;
     }
   }
 
@@ -642,17 +644,17 @@ xxl: 1400px
 (max-width: 767.98px)
  {
   body{
-      background: green;
+      background: #0000ff;
   }
 }
 
   @media only screen and 
   (min-width: 576px) and
-  (max-width: 767.98px)and
+  (max-width: 767.98px) and
   (orientation:portrait)
    {
     body{
-        background: #5114c2;
+        background: #2222ff;
     }
   }
 
@@ -662,43 +664,93 @@ xxl: 1400px
   (orientation:landscape)
    {
     body{
-        background: green;
+        background: #4444ff;
     }
   }
 
 
 /*lg Media queries */
 /*large devices like smartphones (portrait and landscape) */
+@media only screen and 
+(min-width: 768px) and
+(max-width: 991.98px) {
+  body{
+      background: #00ff00;
+  }
+}
+
   @media only screen and 
   (min-width: 768px) and
-  (max-width: 991.98px) {
+  (max-width: 991.98px) and
+  (orientation:portrait){
     body{
-        background: red;
+        background: #22ff22;
     }
   }
 
+  @media only screen and 
+  (min-width: 768px) and
+  (max-width: 991.98px) and
+  (orientation:landscape) {
+    body{
+        background: #44ff44;
+    }
+  }
 
 /*xl Media queries */
 /*extra large devices like smartphones (portrait and landscape) */
   @media only screen and 
   (min-width: 992px) and
   (max-width: 1199.98px) {
-    .-xl {
-    }
     body{
-        background: blue;
+        background: #ffcc00;
     }
   }
 
-/*lg Media queries */
-/*large devices like smartphones (portrait and landscape) */
   @media only screen and 
-  (min-width: 1200px) {
-    .-xxl {
-    }
+  (min-width: 992px) and
+  (max-width: 1199.98px)and
+  (orientation:portrait) {
     body{
-        background: tomato;
+        background: #ffee22;
     }
   }
+
+  @media only screen and 
+  (min-width: 992px) and
+  (max-width: 1199.98px)and
+  (orientation:landscape) {
+    body{
+        background: #ffff44;
+    }
+  }
+
+
+/*xxl Media queries */
+/*duble extra large devices like smartphones (portrait and landscape) */
+  @media only screen and
+  (min-width: 1200px){
+    body{
+        background: #22ceff;
+    }
+  }
+
+  @media only screen and
+  (min-width: 1200px) and 
+  (orientation:portrait){
+    body{
+        background: #44ffff;
+    }
+  }
+
+  @media only screen and 
+  (min-width: 1200px) and
+  (orientation:landscape){
+    body{
+        background: #69ffff;
+    }
+  }
+
+
   
 
