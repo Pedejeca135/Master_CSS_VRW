@@ -1,0 +1,52 @@
+*{
+
+}
+
+.text{
+    padding:20px;
+}
+
+.text::first-line{
+    color:blue;
+}
+
+.text::first-letter{
+    color:red;
+}
+
+form{
+    margin:100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder{
+    color:red;
+}
+
+input::selection{
+    background-color:orange;
+}
+
+b{
+    padding:6px;
+    width:100%;
+}
+
+b::before{
+    content:"me suscribi";
+    color:rgb(156, 81, 81);
+}
+
+b:after{
+    content:"todo tendencias";
+    color:red;
+    background: #614;
+}
