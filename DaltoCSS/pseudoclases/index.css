@@ -1,0 +1,58 @@
+.caja{
+    height:200px;
+    width:200px;
+    background:slateblue;
+    /* transition: background 1s, height 1s, width 1s; */
+    /* tansition: all 1s; */
+    transition: all 1s, border 0.5s;
+    border: 3px solid red;
+}
+
+.caja:hover{
+    background:red;
+    height: 300px;
+    width: 300px;
+    border-color: blue;
+}
+
+.caja:link{
+    color:aqua; 
+}
+
+.caja:visited{
+    color:green
+}
+
+a{
+    display:inline-block;
+}
+
+.boton{
+    width:300px;
+    height:300px;
+    background:red;
+    transition: all 10s;
+}
+
+.boton:active{
+    background:blue;
+    width:600px;
+}
+
+input{
+    margin:25px;
+    background:lightgray;
+    transition: all 1s;
+}
+
+input:focus{
+    background:white;
+    height:100px;
+    overflow:auto;
+
+}
+
+.caja b:lang(es){
+    background:red;
+    padding:20px;
+}
