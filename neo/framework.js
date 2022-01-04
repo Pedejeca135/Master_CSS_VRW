@@ -1,4 +1,4 @@
-function swapClass()
+function swapClasses(nameAs, nameTo)
 {
     if(arrowServiciosSubMenu.classList.contains('arrow--left'))
     {

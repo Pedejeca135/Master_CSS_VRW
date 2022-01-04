@@ -20,4 +20,4 @@ arrowServiciosSubMenu.addEventListener('click', ()=> {
     arrowServiciosSubMenu.classList.remove('arrow--down');
     arrowServiciosSubMenu.classList.add('arrow--left');
   }
-})
+});
